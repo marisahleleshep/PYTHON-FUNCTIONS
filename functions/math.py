@@ -13,3 +13,7 @@ def multiplication(t,r):
 def remainder(g,m):
     word=g%m
     return word
+
+def addition(a,b):
+    answer=a+b
+    return answer
