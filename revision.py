@@ -96,6 +96,13 @@ def duplicates(*num):
 print(duplicate(1,2,2,5,5,8,8,90))
 
 # Write a function that takes an array of integers and returns the product of all the numbers in the array.
+def productNum(*num):
+    product=1
+    for i in range(len(num+1)):
+        product*=i
+    return product
+print(productNum(2,3,4,5,6))
+    
 # def product(*pro):
 #     empty=[]
 #     for i in range(len(pro)):
