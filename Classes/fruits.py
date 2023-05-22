@@ -5,8 +5,8 @@ class Fruits:
         self.size=size
         self.texture=texture
 
-    def storage(self):
-        return f"I ate an {self.color}, {self.size} and {self.texture}"
+    def change_color(self):
+        return f"I ate an {self.color}, {self.size} and {self.texture} fruit"
     def falling(self):
         return f"A {self.size} {self.color} and {self.texture} pawpaw"
     def germinate(self):
